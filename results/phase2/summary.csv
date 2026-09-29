@@ -1,0 +1,4 @@
+dataset,task,rows,features,baseline_val_score,best_candidate_val_score,best_candidate,gain,candidate_count,successful_evaluations,failed_evaluations,runtime,baseline_test_score,best_candidate_test_score
+breast_cancer,classification,569,30,0.9883720930232558,0.9883720930232558,SQRT(mean texture),0.0,880,880,0,4.205337047576904,0.9767441860465116,0.9767441860465116
+wine,classification,178,13,1.0,1.0,LOG(alcohol),0.0,364,364,0,1.7447326183319092,1.0,1.0
+diabetes,regression,442,10,0.31256200782056964,0.4437593847448247,"ADD(bmi,s5)",0.13119737692425504,220,220,0,10.451026916503906,0.39799113409297804,0.4335671254204605

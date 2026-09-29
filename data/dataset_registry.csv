@@ -1,0 +1,11 @@
+dataset_id,name,source,task_type,target,n_rows,n_features,numeric_features,categorical_features,missing_values
+breast_cancer,breast_cancer,sklearn.datasets.load_breast_cancer,classification,target,569,30,30,0,0
+wine,wine,sklearn.datasets.load_wine,classification,target,178,13,13,0,0
+diabetes,diabetes,sklearn.datasets.load_diabetes,regression,target,442,10,10,0,0
+california_housing,california_housing,sklearn.datasets.fetch_california_housing,regression,target,20640,8,8,0,0
+iris,iris,sklearn.datasets.load_iris,classification,target,150,4,4,0,0
+titanic,titanic,OpenML:40945 (Titanic),classification,target,1309,13,6,7,3855
+credit_g,credit_g,OpenML:31 (Credit-g),classification,target,1000,20,7,13,0
+blood_transfusion,blood_transfusion,OpenML:1464 (Blood Transfusion),classification,target,748,4,4,0,0
+vehicle,vehicle,OpenML:54 (Vehicle),classification,target,846,18,18,0,0
+spambase,spambase,OpenML:44 (Spambase),classification,target,4601,57,57,0,0

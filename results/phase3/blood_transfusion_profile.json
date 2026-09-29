@@ -1,0 +1,126 @@
+{
+    "raw_context": {
+        "dataset_name": "blood_transfusion",
+        "profiler_version": "1.0",
+        "structural": {
+            "n_rows": 748,
+            "n_cols": 4,
+            "n_numeric": 4,
+            "n_categorical": 0,
+            "n_boolean": 0,
+            "n_datetime": 0,
+            "task_type": "classification"
+        },
+        "missingness": {
+            "total_missing": 0,
+            "missing_ratio": 0.0,
+            "cols_with_missing": 0,
+            "mean_missingness_per_feature": 0.0,
+            "max_feature_missingness": 0.0
+        },
+        "categorical": {
+            "mean_cardinality": 0.0,
+            "max_cardinality": 0
+        },
+        "numerical": {
+            "avg_abs_correlation": 0.46599826183085336,
+            "max_abs_correlation": 0.9999999999999999
+        },
+        "target": {
+            "n_classes": 2,
+            "majority_class_proportion": 0.7620320855614974,
+            "minority_class_proportion": 0.23796791443850268,
+            "class_imbalance_ratio": 3.202247191011236
+        },
+        "feature_profiles": {
+            "V1": {
+                "feature_name": "V1",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 31,
+                "unique_ratio": 0.04144385026737968,
+                "mean": 9.506684491978609,
+                "std": 8.095395635299214,
+                "min": 0.0,
+                "max": 74.0,
+                "median": 7.0,
+                "skewness": 1.8804635327038797,
+                "cardinality": null
+            },
+            "V2": {
+                "feature_name": "V2",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 33,
+                "unique_ratio": 0.04411764705882353,
+                "mean": 5.514705882352941,
+                "std": 5.839307123090025,
+                "min": 1.0,
+                "max": 50.0,
+                "median": 4.0,
+                "skewness": 3.2112654741848314,
+                "cardinality": null
+            },
+            "V3": {
+                "feature_name": "V3",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 33,
+                "unique_ratio": 0.04411764705882353,
+                "mean": 1378.6764705882354,
+                "std": 1459.8267807725063,
+                "min": 250.0,
+                "max": 12500.0,
+                "median": 1000.0,
+                "skewness": 3.2112654741848305,
+                "cardinality": null
+            },
+            "V4": {
+                "feature_name": "V4",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 78,
+                "unique_ratio": 0.10427807486631016,
+                "mean": 34.282085561497325,
+                "std": 24.376714368614188,
+                "min": 2.0,
+                "max": 98.0,
+                "median": 28.0,
+                "skewness": 0.7494502906271294,
+                "cardinality": null
+            }
+        }
+    },
+    "numeric_context_vector": [
+        748,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        0.0,
+        0,
+        0.46599826183085336,
+        0.9999999999999999
+    ],
+    "vector_keys": [
+        "n_rows",
+        "n_cols",
+        "n_numeric",
+        "n_categorical",
+        "n_boolean",
+        "n_datetime",
+        "missing_ratio",
+        "cols_with_missing",
+        "mean_missingness_per_feature",
+        "max_feature_missingness",
+        "mean_cardinality",
+        "max_cardinality",
+        "avg_abs_correlation",
+        "max_abs_correlation"
+    ]
+}

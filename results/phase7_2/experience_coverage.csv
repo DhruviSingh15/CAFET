@@ -1,0 +1,11 @@
+target_dataset,exact_candidate_overlap_rate,transformation_overlap_rate,similarity_weighted_evidence_rate
+breast_cancer,0.0,1.0,1.0
+wine,0.0,1.0,1.0
+diabetes,0.01818181818181818,1.0,1.0
+california_housing,0.0,1.0,1.0
+iris,0.0,1.0,1.0
+titanic,0.0004409171075837742,1.0,1.0
+credit_g,0.00398406374501992,1.0,1.0
+blood_transfusion,0.0,1.0,1.0
+vehicle,0.0,1.0,1.0
+spambase,0.0,1.0,1.0

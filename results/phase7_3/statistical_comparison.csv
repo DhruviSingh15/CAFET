@@ -1,0 +1,10 @@
+comparison,metric,statistic,p_value,n_samples
+D_SimOnly vs Random,spearman,25.0,0.845703125,10
+D_SimOnly vs Random,ndcg_at_10,22.0,0.625,10
+D_SimOnly vs Random,precision_at_10,0.0,0.0625,10
+D_SimOnly vs A_TransformOnly,spearman,22.0,0.625,10
+D_SimOnly vs A_TransformOnly,ndcg_at_10,4.0,0.013671875,10
+D_SimOnly vs A_TransformOnly,precision_at_10,0.0,0.5,10
+D_SimOnly vs B_Phase7,spearman,26.0,0.921875,10
+D_SimOnly vs B_Phase7,ndcg_at_10,22.0,1.0,10
+D_SimOnly vs B_Phase7,precision_at_10,0.0,0.25,10

@@ -1,0 +1,198 @@
+{
+    "experience_id": "d70e70c5-9ef6-4cd3-86ff-99c14bf91cdb",
+    "source_dataset_id": "diabetes",
+    "source_dataset_name": "diabetes",
+    "dataset_context": {
+        "dataset_name": "diabetes",
+        "profiler_version": "1.0",
+        "structural": {
+            "n_rows": 442,
+            "n_cols": 10,
+            "n_numeric": 10,
+            "n_categorical": 0,
+            "n_boolean": 0,
+            "n_datetime": 0,
+            "task_type": "regression"
+        },
+        "missingness": {
+            "total_missing": 0,
+            "missing_ratio": 0.0,
+            "cols_with_missing": 0,
+            "mean_missingness_per_feature": 0.0,
+            "max_feature_missingness": 0.0
+        },
+        "categorical": {
+            "mean_cardinality": 0.0,
+            "max_cardinality": 0
+        },
+        "numerical": {
+            "avg_abs_correlation": 0.32175361582954387,
+            "max_abs_correlation": 0.8966629578104894
+        },
+        "target": {
+            "target_mean": 152.13348416289594,
+            "target_std": 77.09300453299109,
+            "target_min": 25.0,
+            "target_max": 346.0,
+            "target_skewness": 0.44056293407014124
+        },
+        "feature_profiles": {
+            "age": {
+                "feature_name": "age",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 58,
+                "unique_ratio": 0.13122171945701358,
+                "mean": -2.511816797794472e-19,
+                "std": 0.047619047619047644,
+                "min": -0.1072256316073538,
+                "max": 0.11072667545381144,
+                "median": 0.005383060374248237,
+                "skewness": -0.2313815329708844,
+                "cardinality": null
+            },
+            "sex": {
+                "feature_name": "sex",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 2,
+                "unique_ratio": 0.004524886877828055,
+                "mean": 1.2307902309192911e-17,
+                "std": 0.047619047619047665,
+                "min": -0.044641636506989144,
+                "max": 0.05068011873981862,
+                "median": -0.044641636506989144,
+                "skewness": 0.12738452746618825,
+                "cardinality": null
+            },
+            "bmi": {
+                "feature_name": "bmi",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 163,
+                "unique_ratio": 0.36877828054298645,
+                "mean": -2.2455642172282577e-16,
+                "std": 0.047619047619047616,
+                "min": -0.09027529589850945,
+                "max": 0.17055522598064407,
+                "median": -0.007283766209687899,
+                "skewness": 0.5981484879110457,
+                "cardinality": null
+            },
+            "bp": {
+                "feature_name": "bp",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 100,
+                "unique_ratio": 0.22624434389140272,
+                "mean": -4.7975700837874414e-17,
+                "std": 0.047619047619047596,
+                "min": -0.11239880254408448,
+                "max": 0.13204361674121307,
+                "median": -0.00567042229275739,
+                "skewness": 0.29065836678515405,
+                "cardinality": null
+            },
+            "s1": {
+                "feature_name": "s1",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 141,
+                "unique_ratio": 0.3190045248868778,
+                "mean": -1.3814992387869595e-17,
+                "std": 0.04761904761904759,
+                "min": -0.12678066991651324,
+                "max": 0.15391371315651542,
+                "median": -0.004320865536613489,
+                "skewness": 0.37810820692251923,
+                "cardinality": null
+            },
+            "s2": {
+                "feature_name": "s2",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 302,
+                "unique_ratio": 0.6832579185520362,
+                "mean": 3.918434204559376e-17,
+                "std": 0.047619047619047644,
+                "min": -0.11561306597939897,
+                "max": 0.19878798965729408,
+                "median": -0.0038190651205350003,
+                "skewness": 0.43659180369115835,
+                "cardinality": null
+            },
+            "s3": {
+                "feature_name": "s3",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 63,
+                "unique_ratio": 0.1425339366515837,
+                "mean": -5.7771786349272854e-18,
+                "std": 0.047619047619047596,
+                "min": -0.10230705051741597,
+                "max": 0.18117906039727852,
+                "median": -0.006584467611155497,
+                "skewness": 0.7992551183440645,
+                "cardinality": null
+            },
+            "s4": {
+                "feature_name": "s4",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 66,
+                "unique_ratio": 0.1493212669683258,
+                "mean": -9.042540472060099e-18,
+                "std": 0.047619047619047616,
+                "min": -0.0763945037500033,
+                "max": 0.18523444326019867,
+                "median": -0.002592261998183278,
+                "skewness": 0.7353736478925007,
+                "cardinality": null
+            },
+            "s5": {
+                "feature_name": "s5",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 184,
+                "unique_ratio": 0.416289592760181,
+                "mean": 9.268603983861601e-17,
+                "std": 0.047619047619047616,
+                "min": -0.12609712083330468,
+                "max": 0.13359728192191356,
+                "median": -0.0019471710869220743,
+                "skewness": 0.29175372927791465,
+                "cardinality": null
+            },
+            "s6": {
+                "feature_name": "s6",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 56,
+                "unique_ratio": 0.12669683257918551,
+                "mean": 1.1303175590075123e-17,
+                "std": 0.047619047619047644,
+                "min": -0.13776722569000302,
+                "max": 0.13561183068907107,
+                "median": -0.0010776975004659671,
+                "skewness": 0.20791661615070753,
+                "cardinality": null
+            }
+        }
+    },
+    "candidate_id": "ABS(bmi)",
+    "transformation": "ABS",
+    "source_features": [
+        "bmi"
+    ],
+    "baseline_score": 0.31256200782056964,
+    "candidate_score": 0.3102530383719204,
+    "utility_score": -0.002308969448649223,
+    "gain": -0.002308969448649223,
+    "evaluation_time": 0.0464355945587158,
+    "computational_cost": 0.0464355945587158,
+    "rank": 178,
+    "is_successful": false,
+    "random_seed": 42,
+    "timestamp": "2026-09-29T12:39:29.122482",
+    "schema_version": "1.0"
+}

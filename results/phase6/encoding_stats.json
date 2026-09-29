@@ -1,0 +1,26 @@
+{
+    "breast_cancer": {
+        "total_candidates": 880,
+        "unique_candidate_ids": 880,
+        "vector_dims": [
+            61
+        ],
+        "historical_pool_size": 584
+    },
+    "wine": {
+        "total_candidates": 364,
+        "unique_candidate_ids": 364,
+        "vector_dims": [
+            61
+        ],
+        "historical_pool_size": 1100
+    },
+    "diabetes": {
+        "total_candidates": 220,
+        "unique_candidate_ids": 220,
+        "vector_dims": [
+            61
+        ],
+        "historical_pool_size": 1244
+    }
+}

@@ -1,0 +1,167 @@
+[
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "LOG(mean radius)",
+        "transformation": "LOG",
+        "source_features": [
+            "mean radius"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "SQRT(mean radius)",
+        "transformation": "SQRT",
+        "source_features": [
+            "mean radius"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "SQUARE(mean radius)",
+        "transformation": "SQUARE",
+        "source_features": [
+            "mean radius"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "ABS(mean radius)",
+        "transformation": "ABS",
+        "source_features": [
+            "mean radius"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "LOG(mean texture)",
+        "transformation": "LOG",
+        "source_features": [
+            "mean texture"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "SQRT(mean texture)",
+        "transformation": "SQRT",
+        "source_features": [
+            "mean texture"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "SQUARE(mean texture)",
+        "transformation": "SQUARE",
+        "source_features": [
+            "mean texture"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "ABS(mean texture)",
+        "transformation": "ABS",
+        "source_features": [
+            "mean texture"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "LOG(mean perimeter)",
+        "transformation": "LOG",
+        "source_features": [
+            "mean perimeter"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "SQRT(mean perimeter)",
+        "transformation": "SQRT",
+        "source_features": [
+            "mean perimeter"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "SQUARE(mean perimeter)",
+        "transformation": "SQUARE",
+        "source_features": [
+            "mean perimeter"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "ABS(mean perimeter)",
+        "transformation": "ABS",
+        "source_features": [
+            "mean perimeter"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "LOG(mean area)",
+        "transformation": "LOG",
+        "source_features": [
+            "mean area"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "SQRT(mean area)",
+        "transformation": "SQRT",
+        "source_features": [
+            "mean area"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    },
+    {
+        "dataset": "breast_cancer",
+        "candidate_id": "SQUARE(mean area)",
+        "transformation": "SQUARE",
+        "source_features": [
+            "mean area"
+        ],
+        "has_history": 0,
+        "history_count": 0,
+        "vector_dim": 61
+    }
+]

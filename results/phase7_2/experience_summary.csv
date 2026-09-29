@@ -1,0 +1,11 @@
+dataset_id,experience_count,successful_experiences,negative_experiences
+breast_cancer,880,0,880
+wine,364,0,364
+diabetes,220,170,50
+california_housing,144,40,104
+iris,40,11,29
+titanic,9072,2252,6820
+credit_g,1004,278,726
+blood_transfusion,40,17,23
+vehicle,684,343,341
+spambase,988,102,886

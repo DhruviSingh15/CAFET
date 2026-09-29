@@ -1,0 +1,183 @@
+{
+    "raw_context": {
+        "dataset_name": "california_housing",
+        "profiler_version": "1.0",
+        "structural": {
+            "n_rows": 20640,
+            "n_cols": 8,
+            "n_numeric": 8,
+            "n_categorical": 0,
+            "n_boolean": 0,
+            "n_datetime": 0,
+            "task_type": "regression"
+        },
+        "missingness": {
+            "total_missing": 0,
+            "missing_ratio": 0.0,
+            "cols_with_missing": 0,
+            "mean_missingness_per_feature": 0.0,
+            "max_feature_missingness": 0.0
+        },
+        "categorical": {
+            "mean_cardinality": 0.0,
+            "max_cardinality": 0
+        },
+        "numerical": {
+            "avg_abs_correlation": 0.13244184554547705,
+            "max_abs_correlation": 0.9246644339150366
+        },
+        "target": {
+            "target_mean": 2.0685581690891475,
+            "target_std": 1.1539561587441385,
+            "target_min": 0.14999,
+            "target_max": 5.00001,
+            "target_skewness": 0.9777632739098335
+        },
+        "feature_profiles": {
+            "MedInc": {
+                "feature_name": "MedInc",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 12928,
+                "unique_ratio": 0.6263565891472869,
+                "mean": 3.8706710029069766,
+                "std": 1.8998217179452688,
+                "min": 0.4999,
+                "max": 15.0001,
+                "median": 3.5347999999999997,
+                "skewness": 1.6466567021344465,
+                "cardinality": null
+            },
+            "HouseAge": {
+                "feature_name": "HouseAge",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 52,
+                "unique_ratio": 0.0025193798449612403,
+                "mean": 28.639486434108527,
+                "std": 12.58555761211165,
+                "min": 1.0,
+                "max": 52.0,
+                "median": 29.0,
+                "skewness": 0.06033063759913685,
+                "cardinality": null
+            },
+            "AveRooms": {
+                "feature_name": "AveRooms",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 19392,
+                "unique_ratio": 0.9395348837209302,
+                "mean": 5.428999742190376,
+                "std": 2.4741731394243187,
+                "min": 0.8461538461538461,
+                "max": 141.9090909090909,
+                "median": 5.229128787878788,
+                "skewness": 20.69786895671065,
+                "cardinality": null
+            },
+            "AveBedrms": {
+                "feature_name": "AveBedrms",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 14233,
+                "unique_ratio": 0.6895833333333333,
+                "mean": 1.096675149606208,
+                "std": 0.4739108567954661,
+                "min": 0.3333333333333333,
+                "max": 34.06666666666667,
+                "median": 1.048780487804878,
+                "skewness": 31.316956246782652,
+                "cardinality": null
+            },
+            "Population": {
+                "feature_name": "Population",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 3888,
+                "unique_ratio": 0.1883720930232558,
+                "mean": 1425.4767441860465,
+                "std": 1132.462121765341,
+                "min": 3.0,
+                "max": 35682.0,
+                "median": 1166.0,
+                "skewness": 4.935858226727124,
+                "cardinality": null
+            },
+            "AveOccup": {
+                "feature_name": "AveOccup",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 18841,
+                "unique_ratio": 0.9128391472868217,
+                "mean": 3.0706551594363742,
+                "std": 10.386049562213618,
+                "min": 0.6923076923076923,
+                "max": 1243.3333333333333,
+                "median": 2.818115654360196,
+                "skewness": 97.63956096369486,
+                "cardinality": null
+            },
+            "Latitude": {
+                "feature_name": "Latitude",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 862,
+                "unique_ratio": 0.04176356589147287,
+                "mean": 35.63186143410852,
+                "std": 2.1359523974571153,
+                "min": 32.54,
+                "max": 41.95,
+                "median": 34.26,
+                "skewness": 0.4659530037099799,
+                "cardinality": null
+            },
+            "Longitude": {
+                "feature_name": "Longitude",
+                "feature_type": "numerical",
+                "missing_ratio": 0.0,
+                "unique_count": 844,
+                "unique_ratio": 0.04089147286821705,
+                "mean": -119.56970445736432,
+                "std": 2.0035317235025882,
+                "min": -124.35,
+                "max": -114.31,
+                "median": -118.49,
+                "skewness": -0.2978012079524363,
+                "cardinality": null
+            }
+        }
+    },
+    "numeric_context_vector": [
+        20640,
+        8,
+        8,
+        0,
+        0,
+        0,
+        0.0,
+        0,
+        0.0,
+        0.0,
+        0.0,
+        0,
+        0.13244184554547705,
+        0.9246644339150366
+    ],
+    "vector_keys": [
+        "n_rows",
+        "n_cols",
+        "n_numeric",
+        "n_categorical",
+        "n_boolean",
+        "n_datetime",
+        "missing_ratio",
+        "cols_with_missing",
+        "mean_missingness_per_feature",
+        "max_feature_missingness",
+        "mean_cardinality",
+        "max_cardinality",
+        "avg_abs_correlation",
+        "max_abs_correlation"
+    ]
+}

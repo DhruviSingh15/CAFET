@@ -1,0 +1,50 @@
+{
+    "breast_cancer": [
+        {
+            "dataset_id": "wine",
+            "dataset_name": "wine",
+            "similarity": 0.045050390615054406,
+            "distance": 21.197365801881237,
+            "rank": 1
+        },
+        {
+            "dataset_id": "diabetes",
+            "dataset_name": "diabetes",
+            "similarity": 0.043999358402949065,
+            "distance": 21.72760413554064,
+            "rank": 2
+        }
+    ],
+    "wine": [
+        {
+            "dataset_id": "diabetes",
+            "dataset_name": "diabetes",
+            "similarity": 0.1904097917439397,
+            "distance": 4.251830753246058,
+            "rank": 1
+        },
+        {
+            "dataset_id": "breast_cancer",
+            "dataset_name": "breast_cancer",
+            "similarity": 0.11724985379055856,
+            "distance": 7.528795283500166,
+            "rank": 2
+        }
+    ],
+    "diabetes": [
+        {
+            "dataset_id": "wine",
+            "dataset_name": "wine",
+            "similarity": 0.39011017163365097,
+            "distance": 1.5633784318217963,
+            "rank": 1
+        },
+        {
+            "dataset_id": "breast_cancer",
+            "dataset_name": "breast_cancer",
+            "similarity": 0.19781161275373463,
+            "distance": 4.055314933633087,
+            "rank": 2
+        }
+    ]
+}

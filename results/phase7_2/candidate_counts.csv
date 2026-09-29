@@ -1,0 +1,11 @@
+dataset_id,candidate_count,successful_candidates,failed_candidates
+breast_cancer,880,880,0
+wine,364,364,0
+diabetes,220,220,0
+california_housing,144,144,0
+iris,40,40,0
+titanic,9072,9072,0
+credit_g,1004,1004,0
+blood_transfusion,40,40,0
+vehicle,684,684,0
+spambase,988,988,0

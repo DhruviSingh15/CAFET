@@ -1,0 +1,6 @@
+{
+    "baseline_val_score": 0.9449275362318841,
+    "baseline_test_score": 0.9160636758321273,
+    "training_time": 0.009019851684570312,
+    "evaluation_time": 0.0010623931884765625
+}
